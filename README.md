@@ -24,10 +24,10 @@ Para executar esse projeto abra o arquivo `index.html` no browser da sua prefer�
 
 ## 🚀 Imagens
 ### Web Version
-<img src="https://i.pinimg.com/originals/c5/ea/9a/c5ea9a9fb28aad9757e3e13250920d23.jpg">
+<img src="design/web.png">
           
 ### Mobile Version
-<img src="https://i.pinimg.com/originals/61/74/02/617402c5e0edba9ac243de0fba658b1f.jpg">
+<img src="design/web.png">
 
 ## 📃 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
