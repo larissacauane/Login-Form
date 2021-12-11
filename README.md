@@ -24,7 +24,7 @@ Para executar esse projeto abra o arquivo `index.html` no browser da sua preferÃ
 
 ## ğŸš€ Imagens
 ### Web Version
-<img src="design/web.png">
+<img src="./design/web.png">
           
 ### Mobile Version
 <img src="design/web.png">
