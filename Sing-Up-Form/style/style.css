@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: rgb(26, 46, 53);
+}
+
+body {
+    background-color: rgb(246, 247, 248);
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(26, 46, 53, 0.137);
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+main .container-form {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container-form h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(254, 84, 84);
+}
+
+main .container-form .social-media {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+main .container-form .social-media img {
+    width: 36px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+main .container-form .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main .container-form .alternative-text {
+    margin: 2rem 0 1rem 0;
+}
+
+main .container-form .alternative-text p {
+    font-weight: 400;
+    text-align: center;
+}
+
+main .container-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container-form form input {
+    background-color: rgb(247, 248, 249);
+    width: 25rem;
+    height: 3.1rem;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgb(198, 217, 223);
+    font-size: 1rem;
+    border: rgb(198, 217, 223) 1px solid;
+    border-radius: 8px;
+}
+
+main .container-form form input::placeholder {
+    font-family: "Lato", sans-serif;
+    color: rgb(198, 217, 223);
+    padding-left: 0.5rem;
+}
+
+main .container-form .form-button{
+    width: 450px;
+    height: 80px;
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+main .container-form .form-button button {
+    cursor: pointer;
+    width: 10.5rem;
+    height: 3.1rem;
+    outline: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: auto;
+    
+}
+
+main .container-form .form-button .button-sign-up {
+    background-color: rgb(254, 84, 84);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+main .container-form .form-button .button-sign-up:hover{
+    background-color: white;
+    color: rgb(254, 84, 84);
+    border: rgb(254, 84, 84) 2px solid;
+}
+
+main .container-form .form-button .button-sign-in{
+    background-color: white;
+    color: rgb(254, 84, 84);
+    border: rgb(254, 84, 84) 2px solid;
+    transition: all .3s ease-in-out;
+    
+}
+
+main .container-form .form-button .button-sign-in:hover{
+    background-color: rgb(254, 84, 84);
+    color: white;
+}
+
+main .container-image{
+    width: 50vw;
+    height: 37rem;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("/img/img.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    main .container-image {
+        width: 62vw;
+        height: 32rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1000px) {
+    main .container-image {
+        display: none;
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 570px){
+    main .container-form h1 {
+        font-size: 2rem;
+    }
+
+    main .container-form .social-media img {
+        width: 25px;
+    }
+
+    main .container-form .alternative-text p {
+        font-size: 0.8rem;
+    }
+
+    main .container-form form input{
+        width: 12rem;
+        height: 2rem;
+        
+    }
+
+    main .container-form .form-button{
+        width: 210px;
+    }
+
+    main .container-form .form-button button {
+        width: 5.1rem;
+        height: 2rem;
+        margin: auto;
+        font-size: 14px;
+        margin-bottom: 2.5rem;
+    }
+}
+
