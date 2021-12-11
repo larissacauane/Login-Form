@@ -144,7 +144,7 @@ main .container-image{
     height: 37rem;
     display: flex;
     justify-content: flex-end;
-    background-image: url("/img/img.jpg"); 
+    background-image: url("../img/img.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     
