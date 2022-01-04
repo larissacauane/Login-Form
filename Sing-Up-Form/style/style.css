@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,116 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(24, 24, 32);
+}
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main h1 {
+    font-size: 3rem;
+    color: white; 
+}
+
+section {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+section .social-media a {
+    width: 25rem;
+    padding: 1.1rem 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(209, 209, 210);
+    border: 3px rgb(52, 51, 67) solid;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+}
+
+section .social-media a:hover{
+    background-color: rgb(52, 51, 67);
+    color: white;
+}
+
+section .social-media a .fab{
+    font-size: 1.3rem;
+}
+
+section .social-media a span {
+    margin-left: .5rem;
+}
+
+section .alternative-text {
+    color: rgb(209, 209, 210);
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+
+section form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+section form input{
+    width: 25rem;
+    padding: 1.1rem 1rem;
+    margin-top: .5rem;
+    background-color: rgb(24, 24, 32);
+    color: rgb(209, 209, 210);
+    border: 3px rgb(52, 51, 67) solid;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    transition: ease-in-out .3s;
+    
+}
+
+section form input:hover{
+    border-color: #E974BA;
+}
+
+section form input::placeholder{
+    color: rgb(209, 209, 210);
+}
+
+section form input[type="submit"]{
+    background-image: linear-gradient(45deg,  #6a1b7e, #BF35AB, #E974BA, #FFBDB0);
+    border: transparent;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+section form input[type="submit"]:hover{
+    transform: translateY(-0.30em);
+    cursor: pointer;
+}
 
 .circle-1 {
     background: linear-gradient(45deg, #050507, #0f0f14, #212130, #3e3e57);
@@ -28,6 +137,7 @@
     width: 30%;
     clip-path: circle(32.1% at 47% 16%);
     left: 5rem;
+    top: 0;
     box-shadow: 5px 5px 15px #101015; 
 }
   
