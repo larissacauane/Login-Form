@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="form-container">
+          <div class="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+
+          <div class="form">
+            <div class="form-text-box">
+              <div class="title">
+                <img src="images/log-in.svg" alt="" />
+                <h1>Faça seu login</h1>
+              </div>
+              <p>Entre com suas informações de cadastro.</p>
+            </div>
+
+            <form action="#">
+              <div class="inputs-boxes">
+                <div class="input-box">
+                  <label for="email">E-mail</label>
+                  <div>
+                    <ion-icon name="mail" class="form-icon"></ion-icon>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Digite seu e-mail"
+                    />
+                  </div>
+                </div>
+                <div class="input-box">
+                  <label for="password">Senha</label>
+                  <div>
+                    <ion-icon name="lock" class="form-icon"></ion-icon>
+
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="Digite sua senha"
+                    />
+                    <ion-icon name="eye" class="form-icon"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="check-link-box">
+                <div class="checkbox-box">
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                  <label for="checkbox">Lembre-me</label>
+                </div>
+                <a href="#">Esqueci minha senha</a>
+              </div>
+
+              <div class="btn-link-box">
+                <button>Entrar</button>
+                <a href="#">Não tem uma conta? <span>Registre-se</span></a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="img-container"></div>
+      </section>
+    </main>
+  </body>
+</html>

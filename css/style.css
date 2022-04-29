@@ -1,0 +1,216 @@
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background);
+  max-height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ================================ */
+/* LOGO */
+/* ================================ */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2.8rem 0 0 2.8rem;
+  cursor: pointer;
+}
+
+/* ================================ */
+/* FORM */
+/* ================================ */
+.form {
+  background-color: var(--form-background);
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 3.5rem 8.6rem;
+  margin-top: 2.8rem;
+}
+
+/* ================================ */
+/* FORM TEXT */
+/* ================================ */
+.form-text-box .title {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.form-text-box .title h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2;
+  color: var(--text-title);
+}
+
+.form-text-box p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-base);
+}
+
+/* ================================ */
+/* FORM INPUTS */
+/* ================================ */
+.input-box label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.4;
+  color: var(--text-base);
+}
+
+.input-box div {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px #868686;
+  gap: 0.8rem;
+  padding: 0 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.input-box div input {
+  width: 23.6rem;
+  height: 4.4rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #868686;
+}
+
+.input-box div .form-icon {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--text-base);
+}
+
+.input-box div:focus-within {
+  box-shadow: inset 0 0 0 3px var(--primary-color);
+}
+
+::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* ================================ */
+/* FORM CHECKBOX AND LINK */
+/* ================================ */
+.check-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.8rem 0;
+}
+
+.checkbox-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* .checkbox input[type="checkbox"]{
+    vertical-align: middle;
+    width: 1.8rem;
+    height: 1.8rem;
+} */
+
+.checkbox-box label {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #a9afb9;
+}
+
+.check-link-box a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+/* ================================ */
+/* FORM BUTTON AND LINK */
+/* ================================ */
+.btn-link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.btn-link-box button {
+  display: inline-block;
+  flex-grow: 1;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 1.5%;
+  border: none;
+  border-radius: 5px;
+  color: #473404;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-link-box a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.btn-link-box a span {
+  font-weight: 600;
+}
+
+/* ================================ */
+/* IMAGE */
+/* ================================ */
+.img-container {
+  background-image: url(/images/side-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
