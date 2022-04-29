@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=BF35AB&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=ffc632&labelColor=000000">
 </p>
 
 <p align="center">
-    <img src="https://i.imgur.com/ovgRLzI.png" alt="Logo" width="800">
+    <img src="https://i.imgur.com/I36STvj.png" alt="Logo" width="800">
 </p>
 
 ## ✨ Tecnologias
